@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle (click)="goBack()" >
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+
+    <ion-title>Items</ion-title>
+
+    <ion-buttons end>
+      <button ion-button >
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content id="body">
+
+  <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="searchItem($event)" (ionCancel)="searchItem($event)"
+    placeholder="Search.."
+    [showCancelButton]="true"
+    (ionClear) = "searchItem($event)">
+  </ion-searchbar>
+
+  <ion-list >
+    <button menuClose ion-item *ngFor="let i of itemsList" (click)="showItem(i)" class="sfondo">
+      <ion-thumbnail item-left class="sfondo">
+        <img small src="{{i.icon}}" alt="No pic available yet">
+      </ion-thumbnail>
+      <p>{{i.name}}</p>
+    </button>
+  </ion-list>
+
+</ion-content>

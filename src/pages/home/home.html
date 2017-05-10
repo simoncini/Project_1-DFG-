@@ -1,0 +1,61 @@
+<ion-header id="header">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-title class="center" >News</ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="body">
+
+
+  <div align="center" padding>
+
+    <ion-grid>
+      <ion-row> <!--   Riga 1    -->
+        <ion-col col-6> <!--   Riga 1 - Colonna 1    -->
+          <button ion-button (click)="openItems();">
+            Items
+          </button>
+        </ion-col>
+        <ion-col col-6> <!--   Riga 1 - Colonna 2    -->
+          <button ion-button (click)="openChars();">
+            Characters
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>   <!--   Riga 2    -->
+        <ion-col col-6> <!--   Riga 2 - Colonna 1    -->
+          <button ion-button disabled="true">
+            ComboCards
+          </button>
+        </ion-col>
+        <ion-col col-6> <!--   Riga 2 - Colonna 2    -->
+          <button ion-button disabled="true">
+            Reinforcements
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <h3>Notice :</h3>
+    <ion-list-header>
+      Latest news:
+    </ion-list-header>
+
+    <p padding>This is only a beta version, I'm currently updating the databases and adding new features.
+    I hope you gonna find this app useful.
+    Every donation at ******@***** is much appreciated!
+    </p>
+
+    <ion-buttons start>
+      <a href="mailto:nsimoncini@icloud.com">Contact support</a>
+    </ion-buttons>
+
+  </div>
+
+</ion-content>

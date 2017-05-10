@@ -1,0 +1,12 @@
+{
+  "name": "PrimoProgetto",
+  "app_id": "b53b0330",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://cors.api.com/api"
+    }
+  ]
+}

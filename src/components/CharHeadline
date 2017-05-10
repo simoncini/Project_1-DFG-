@@ -1,0 +1,20 @@
+import {Component, Input} from '@angular/core';
+import {Character} from './character/character';
+
+@Component({
+    selector: 'char-headline',
+    template: `
+<ion-item>
+    <ion-thumbnail item-left>
+      <img src="{{char.img}}">
+    </ion-thumbnail>
+    <h2>{{char.name}}</h2>
+</ion-item>`
+})
+
+export class CharHeadline {
+    @Input()
+    character: Character;
+
+    constructor() { }
+}

@@ -1,0 +1,82 @@
+{
+	"Items": [
+		{
+			"ID": "KH00" ,
+			"name": "Konoha's Headband",
+			"description": "La descrizione del coprifronte di konoha",
+			"icon": "icona.png"
+		},
+		{
+			"ID": "KH01" ,
+			"name": "Konoha's Headband(Hinata)",
+			"description": "La descrizione del coprifronte di konoha(Hinata)",
+			"icon": "icona.png"
+		},
+		{
+			"ID": "KH02" ,
+			"name": "Konoha's Headband New Generation",
+			"description": "La descrizione del coprifronte di konoha (new generation)",
+			"icon": "icona.png"
+		},
+		{
+			"ID": "KH03" ,
+			"name": "Konoha's Headband(Kabuto)",
+			"description": "La descrizione del coprifronte di konoha(Kabuto)",
+			"icon": "icona.png"
+		}
+	],
+	"Characters": [
+		{
+			"ID": "NU0" ,
+			"name": "Naruto Uzumaki",
+			"items": [
+				"KH00",
+				"FHN0"
+				],
+			"reinforcements": [
+				"YA0",
+				"RIU0"
+				],
+			"img": "icona.png"
+		},
+		{
+			"ID": "SU0" ,
+			"name": "Sasuke Uchiha",
+			"items": [
+				"SK00",
+				"STR0"
+				],
+			"reinforcements": [
+				"KY0",
+				"RI0"
+				],
+			"img": "icona.png"
+		},
+		{
+			"ID": "KH0" ,
+			"name": "Kakashi Hatake",
+			"items": [
+				"KH00",
+				"FHN0"
+				],
+			"reinforcements": [
+				"YA0",
+				"RH0"
+				],
+			"img": "icona.png"
+		},
+		{
+			"ID": "MN0" ,
+			"name": "Minato Namikaze",
+			"items": [
+				"KH00",
+				"FHC0"
+				],
+			"reinforcements": [
+				"RI0"
+				],
+			"img": "icona.png"
+		}
+	]
+
+}
