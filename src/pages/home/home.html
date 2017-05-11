@@ -16,25 +16,25 @@
 
     <ion-grid>
       <ion-row> <!--   Riga 1    -->
-        <ion-col col-6> <!--   Riga 1 - Colonna 1    -->
-          <button ion-button (click)="openItems();">
+        <ion-col col-6 class="colDim"> <!--   Riga 1 - Colonna 1    -->
+          <button ion-button (click)="openItems();" class="menuButton">
             Items
           </button>
         </ion-col>
-        <ion-col col-6> <!--   Riga 1 - Colonna 2    -->
-          <button ion-button (click)="openChars();">
+        <ion-col col-6 class="colDim"> <!--   Riga 1 - Colonna 2    -->
+          <button ion-button (click)="openChars();" class="menuButton">
             Characters
           </button>
         </ion-col>
       </ion-row>
       <ion-row>   <!--   Riga 2    -->
-        <ion-col col-6> <!--   Riga 2 - Colonna 1    -->
-          <button ion-button disabled="true">
+        <ion-col col-6 class="colDim"> <!--   Riga 2 - Colonna 1    -->
+          <button ion-button disabled="true" class="menuButton">
             ComboCards
           </button>
         </ion-col>
         <ion-col col-6> <!--   Riga 2 - Colonna 2    -->
-          <button ion-button disabled="true">
+          <button ion-button disabled="true" class="menuButton">
             Reinforcements
           </button>
         </ion-col>
@@ -47,7 +47,7 @@
       Latest news:
     </ion-list-header>
 
-    <p padding>This is only a beta version, I'm currently updating the databases and adding new features.
+    <p>This is only a beta version, I'm currently updating the databases and adding new features.
     I hope you gonna find this app useful.
     Every donation at ******@***** is much appreciated!
     </p>

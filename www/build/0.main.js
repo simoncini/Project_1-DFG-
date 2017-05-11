@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 273:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__char_page__ = __webpack_require__(278);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CharPageModule", function() { return CharPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(50);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemsModule", function() { return ItemsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,26 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CharPageModule = (function () {
-    function CharPageModule() {
+var ItemsModule = (function () {
+    function ItemsModule() {
     }
-    return CharPageModule;
+    return ItemsModule;
 }());
-CharPageModule = __decorate([
+ItemsModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__char_page__["a" /* CharPage */],
+            __WEBPACK_IMPORTED_MODULE_2__items__["a" /* Items */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__char_page__["a" /* CharPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__items__["a" /* Items */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__char_page__["a" /* CharPage */]
+            __WEBPACK_IMPORTED_MODULE_2__items__["a" /* Items */]
         ]
     })
-], CharPageModule);
+], ItemsModule);
 
-//# sourceMappingURL=char-page.module.js.map
+//# sourceMappingURL=items.module.js.map
 
 /***/ })
 

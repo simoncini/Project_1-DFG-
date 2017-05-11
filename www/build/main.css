@@ -24710,6 +24710,14 @@ page-home #center {
   margin-left: 1.8em;
 }
 
+page-home .menuButton {
+  font-size: small;
+}
+
+page-home .colDim {
+  padding: 2px;
+}
+
 page-item-page #body {
   background-color: #020244;
   color: #f4f4f4;

@@ -5,6 +5,8 @@ import { IonicStorageModule } from '@ionic/storage';
 import { HttpModule } from '@angular/http';
 import { MyApp } from './app.component';
 
+import { Menu } from '../pages/menu/menu';
+
 import { AppData } from '../providers/app-data';
 
 import { HomePage } from '../pages/home/home';
@@ -21,6 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    Menu,
     HomePage,
     ListPage,
     Characters,
@@ -38,6 +41,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    Menu,
     HomePage,
     ListPage,
     Characters,

@@ -22,10 +22,14 @@
     (ionClear) = "searchItem($event)">
   </ion-searchbar>
 
+  <ion-list-header>
+    Items List
+  </ion-list-header>
+
   <ion-list >
     <button menuClose ion-item *ngFor="let i of itemsList" (click)="showItem(i)" class="sfondo">
-      <ion-thumbnail item-left class="sfondo">
-        <img small src="{{i.icon}}" alt="No pic available yet">
+      <ion-thumbnail item-left style="width:2.0em;height2.0em">
+        <img src="http://simoncini.altervista.org/DemonFox/Immagini/HashiHeadband.jpg" alt="No pic available yet" class="pic">
       </ion-thumbnail>
       <p>{{i.name}}</p>
     </button>

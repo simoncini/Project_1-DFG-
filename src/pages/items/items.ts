@@ -19,7 +19,7 @@ export class Items {
   searchTerm: string = '';
 
   constructor(public navCtrl: NavController, public navParams: NavParams , private alertCtrl: AlertController, public appData: AppData, public storage:Storage ) {
-    this.itemsList = [
+    /*this.itemsList = [
       new Item("ID0" , "Aether" , "Aggeggio rosso degli elfi oscuri" , "../../assets/img/Aether.png" ),
       new Item("ID1", "Cube" , "** Nessuna Descrizione **" , "../../assets/img/Cube.png" ),
       new Item("ID2", "Tesseract" , "Oggetto che Loki.." , "../../assets/icon/HashiHeadband.jpg" ),
@@ -29,7 +29,9 @@ export class Items {
     this.itemsListInitial = [
       new Item("ID4" , "Jarvis" , "Il miglior sistema operativo" , "../../assets/img/Cube.png" ),
       new Item("ID5", "Ultron" , "mezzapippa " , "../../assets/img/Aether.png" )
-    ];
+    ];*/
+
+    this.itemsList = new Array();
 
     this.appData.getRemoteItems(this.itemsList);
 
