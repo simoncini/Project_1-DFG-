@@ -25,7 +25,7 @@ export class InsertPage {
   }
 
   addItem(id: string , name:string , description:string , img:string){
-    this.storage.ready().then(() => {
+    /*this.storage.ready().then(() => {
       this.storage.set( name , new Item(id ,name,description,img) );
       this.storage.set('Niccolò' , 'Simoncini');
       this.storage.set('Tony' , 'Stark');
@@ -34,7 +34,7 @@ export class InsertPage {
        title: 'Inserimento',
        subTitle: name + description + img,
      });
-     alert.present();
+     alert.present();*/
   }
 
   getItem(){

@@ -12,13 +12,15 @@ export class ItemPage {
 
   public item:Item;
   public title:string;
-  public description:string;
+  public char_:string;
+  public stats4:string;
   public icon:string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.item = navParams.get("firstPar");
     this.title = this.item.name;
-    this.description = this.item.description;
+    this.char_ = this.item.char;
+    this.stats4 = this.item.stats4;
     this.icon = this.item.icon;
   }
 

@@ -24711,11 +24711,13 @@ page-home #center {
 }
 
 page-home .menuButton {
-  font-size: small;
+  width: 9.0em;
+  margin: 1.4rem 0.2rem;
 }
 
 page-home .colDim {
   padding: 2px;
+  width: 9.0em;
 }
 
 page-item-page #body {
@@ -24724,12 +24726,10 @@ page-item-page #body {
 }
 
 page-item-page .immagine {
-  margin-left: 40%;
-  width: 5.0em;
-  height: 4.5em;
+  text-align: center;
 }
 
-page-item-page #sfondo {
+page-item-page .sfondo {
   background-color: #020244;
   color: #f4f4f4;
 }
@@ -24737,6 +24737,19 @@ page-item-page #sfondo {
 page-item-page button.sfondo {
   background-color: #020244;
   color: #f4f4f4;
+}
+
+page-item-page .img {
+  width: 80px;
+  height: 80px;
+  max-width: 150%;
+}
+
+page-item-page .infoContainer {
+  width: 100%;
+  height: 100%;
+  border: solid #f7f5f5;
+  border-width: 1px;
 }
 
 page-items #body {
@@ -24749,6 +24762,12 @@ page-items #center {
 }
 
 page-items button.sfondo {
+  background-color: #020244;
+  color: #f4f4f4;
+  margin: 0 0 0 0;
+}
+
+page-menu #body {
   background-color: #020244;
   color: #f4f4f4;
 }

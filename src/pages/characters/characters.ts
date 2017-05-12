@@ -29,9 +29,9 @@ export class Characters {
       new Character("Steve Rogers" , null , null ),
       new Character("Thor" , null , null )
     ];*/
-    this.charsList = [];
+    this.charsList = this.appData.getChar();
 
-    this.appData.getRemoteChars(this.charsList);
+    //this.appData.getRemoteChars(this.charsList);
 
     for (let entry of this.charsList) {
       console.log("Nome: "+entry.name);

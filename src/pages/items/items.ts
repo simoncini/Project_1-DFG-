@@ -19,25 +19,27 @@ export class Items {
   searchTerm: string = '';
 
   constructor(public navCtrl: NavController, public navParams: NavParams , private alertCtrl: AlertController, public appData: AppData, public storage:Storage ) {
-    /*this.itemsList = [
-      new Item("ID0" , "Aether" , "Aggeggio rosso degli elfi oscuri" , "../../assets/img/Aether.png" ),
-      new Item("ID1", "Cube" , "** Nessuna Descrizione **" , "../../assets/img/Cube.png" ),
-      new Item("ID2", "Tesseract" , "Oggetto che Loki.." , "../../assets/icon/HashiHeadband.jpg" ),
-      new Item("ID3", "Vision Stone" , "Pietra della visione" , "../../assets/icon/HashiHeadband.jpg" )
-    ];
 
-    this.itemsListInitial = [
-      new Item("ID4" , "Jarvis" , "Il miglior sistema operativo" , "../../assets/img/Cube.png" ),
-      new Item("ID5", "Ultron" , "mezzapippa " , "../../assets/img/Aether.png" )
-    ];*/
+    //this.itemsList = new Array();
 
-    this.itemsList = new Array();
+    /*
+    *    FIX ME: ANDREBBE ORDINATO UNA SOLA VOLTA , PRIMA DI ACCEDERLO E NON OGNI VOLTA CHE SI TORNA SULLA PAGINA
+    */
 
-    this.appData.getRemoteItems(this.itemsList);
+    this.itemsList = this.appData.getItems().sort((n1,n2) => {
+      if (n1.name > n2.name) {
+        return 1;
+      }
 
-    for (let entry of this.itemsList) {
-      console.log("itemsList: "+entry.name);
-    }
+      if (n1.name < n2.name) {
+          return -1;
+        }
+
+        return 0;
+      });
+
+
+    this.itemsList = this.appData.getItems();
 
     this.itemsListInitial = this.itemsList;
 

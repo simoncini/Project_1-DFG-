@@ -6,12 +6,10 @@ page-item-page {
   }
 
   .immagine {
-    margin-left: 40%;
-    width: 5.0em;
-    height: 4.5em;
+    text-align: center;
   }
 
-  #sfondo{
+  .sfondo{
     background-color: #020244;
     color: #f4f4f4;
   }
@@ -19,6 +17,19 @@ page-item-page {
   button.sfondo{
     background-color: #020244;
     color: #f4f4f4;
+  }
+
+  .img {
+    width: 80px;
+    height: 80px;
+    max-width: 150%;
+  }
+
+  .infoContainer{
+    width: 100%;
+    height: 100%;
+    border: solid #f7f5f5;
+    border-width: 1px;
   }
 
 }

@@ -10,7 +10,6 @@ import { Menu } from '../pages/menu/menu';
 import { AppData } from '../providers/app-data';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { Characters } from '../pages/characters/characters';
 import { CharPage } from '../pages/char-page/char-page';
 import { Items } from '../pages/items/items';
@@ -25,7 +24,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     Menu,
     HomePage,
-    ListPage,
     Characters,
     CharPage,
     Items,
@@ -43,7 +41,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     Menu,
     HomePage,
-    ListPage,
     Characters,
     CharPage,
     Items,

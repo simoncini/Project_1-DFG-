@@ -13,6 +13,7 @@ import { AppData } from '../../providers/app-data';
 export class HomePage {
 
   constructor(public navCtrl: NavController,public appData:AppData) {
+
   }
 
   public openInsertPage(){
@@ -26,6 +27,8 @@ export class HomePage {
   public openItems(){
     this.navCtrl.push( Items );
   }
+
+
 
 
 }
