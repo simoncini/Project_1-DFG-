@@ -24677,7 +24677,7 @@ page-char-page .immagine {
   height: 4.5em;
 }
 
-page-char-page #sfondo {
+page-char-page .sfondo {
   background-color: #020244;
   color: #f4f4f4;
 }
@@ -24685,6 +24685,10 @@ page-char-page #sfondo {
 page-char-page button.sfondo {
   background-color: #020244;
   color: #f4f4f4;
+}
+
+page-char-page button.sfondo.item.item-block.item-ios {
+  height: 1.5em;
 }
 
 page-characters #body {
@@ -24727,11 +24731,14 @@ page-item-page #body {
 
 page-item-page .immagine {
   text-align: center;
+  width: 5em;
+  height: 5em;
 }
 
 page-item-page .sfondo {
   background-color: #020244;
   color: #f4f4f4;
+  text-align: center;
 }
 
 page-item-page button.sfondo {
@@ -24768,6 +24775,11 @@ page-items button.sfondo {
 }
 
 page-menu #body {
+  background-color: #020244;
+  color: #f4f4f4;
+}
+
+page-reinforcements #body {
   background-color: #020244;
   color: #f4f4f4;
 }

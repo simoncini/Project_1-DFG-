@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -21,6 +20,7 @@
 		929C7767A50E4F33834AEEC9 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD14AE71CA14B6E8645C0A8 /* IonicKeyboard.m */; };
 		B6CFA456BFE144039B405D6B /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4915D900F4BDBA12FD3BE /* CDVLogger.m */; };
 		CD58772554D149DABA2A4DD5 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0247B5C7B044D8AC1CC213 /* CDVViewController+SplashScreen.m */; };
+		90DC158F59FE4C2094817630 /* CDVOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C793AACDB854A11806390FC /* CDVOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +76,8 @@
 		EDA69B0357BE4E0E851F3801 /* IonicKeyboard.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; };
 		F2A409931E6C4FBEAB1064CC /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = PrimoProgetto/config.xml; sourceTree = "<group>"; };
+		7C793AACDB854A11806390FC /* CDVOrientation.m */ = {isa = PBXFileReference; name = "CDVOrientation.m"; path = "cordova-plugin-screen-orientation/CDVOrientation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6FED34C2A6904AFAA45A8E68 /* CDVOrientation.h */ = {isa = PBXFileReference; name = "CDVOrientation.h"; path = "cordova-plugin-screen-orientation/CDVOrientation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,8 @@
 				9CF472EB8CD94EEBB78F32BB /* sqlite3.c */,
 				AEC99BAC6A504DDB849DE3D4 /* SQLitePlugin.h */,
 				EB1CC8304AFE428BB8E7F584 /* sqlite3.h */,
+				7C793AACDB854A11806390FC /* CDVOrientation.m */,
+				6FED34C2A6904AFAA45A8E68 /* CDVOrientation.h */,
 			);
 			name = Plugins;
 			path = PrimoProgetto/Plugins;
@@ -236,7 +240,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 720;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PrimoProgetto" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,6 +320,7 @@
 				929C7767A50E4F33834AEEC9 /* IonicKeyboard.m in Sources */,
 				7946A94D944F4E77BA12D199 /* SQLitePlugin.m in Sources */,
 				64E6B3F7CE5448F5914376EB /* sqlite3.c in Sources */,
+				90DC158F59FE4C2094817630 /* CDVOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

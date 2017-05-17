@@ -8,11 +8,31 @@
 
 <ion-content padding id="body">
 
-  <div class="immagine sfondo" >
-    <img src="{{icon}}" alt="Coming Soon">
+  <div class="sfondo" style="text-align:center">
+    <img src="{{icon}}" alt="Coming Soon" style="width:5em;height: 5em;" >
     <br><br>
-
-    <p>{{items}}<p>
   </div>
 
+  <div class="infoContainer" >
+
+    <ion-list-header>
+      Special Equip:
+    </ion-list-header>
+
+    <ion-list>
+      <button ion-item *ngFor="let i of items" style="background-color: #020244;" >
+        <p>{{i}}</p>
+      </button>
+    </ion-list>
+
+    <ion-list-header>
+      Reinforced by:
+    </ion-list-header>
+    <ion-list>
+      <button ion-item *ngFor="let r of reinforcements" style="background-color: #020244;" >
+        <p>{{r}}</p>
+      </button>
+    </ion-list>
+
+  </div>
 </ion-content>

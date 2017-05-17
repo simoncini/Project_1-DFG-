@@ -1,0 +1,376 @@
+https://api.myjson.com/bins/nhph9
+
+
+[
+   {
+     "ID": "NU0" ,
+     "name": "Naruto Uzumaki",
+     "items": [
+       "Konoha's Headband",
+       "Hand-knitted Scarf",
+       "First Hokage Necklace",
+       "Seventh Hokage's Cloak",
+       "Sage Cloak",
+       "Mount Myoboku's Scroll"
+       ],
+     "reinforcements": [
+       "Yamato",
+       "Reanimated Itachi Uchiha",
+       "Roshi",
+       "Yugito Nii"
+       ],
+     "img": "naruto.png"
+   },
+   {
+     "ID": "SU0" ,
+     "name": "Sasuke Uchiha",
+     "items": [
+       "Eternal Mangeky Sharingan",
+       "Six Tomoe Rinnegan",
+       "Leather sleeve",
+       "Sword of Kusanagi(Sasuke)",
+       "Sword of Kusanagi",
+       "Rope Ninja Suit"
+       ],
+     "reinforcements": [
+       "Kabuto Yakushi",
+       "Reanimated Itachi Uchiha"
+       ],
+     "img": "sasuke.png"
+   },
+   {
+     "ID": "KH0" ,
+     "name": "Kakashi Hatake",
+     "items": [
+       "Mysterious Mask",
+       "Icha Icha Paradise",
+       "Jonin Armor",
+       "White Fang",
+       "Mangekyo Sharingan"
+       ],
+     "reinforcements": [
+       "Rin Hoara",
+       "Yamato"
+       ],
+     "img": "kakashi.png"
+   },
+   {
+     "ID": "MN0" ,
+     "name": "Minato Namikaze",
+     "items": [
+       "Konoha's Headband",
+       "Flying Thunder God Kunaii",
+       "Watergate Jonin Armor",
+       "Watergate Lining",
+       "Fourth Hokage Cloak"
+       ],
+     "reinforcements": [
+       "Rin Hoara",
+       "Kushina Uzumaki"
+       ],
+     "img": "minato.png"
+   },
+   {
+     "ID": "Or0" ,
+     "name": "Orochimaru",
+     "items": [
+       "Sword of Kusanagi",
+       "Akatsuki's Cloak",
+       "Snake Body",
+       "Sealed Hormone",
+       "Orochimaru's Ring"
+       ],
+     "reinforcements": [
+       "Kabuto Yakushi"
+       ],
+     "img": "orochimaru.png"
+   },
+   {
+     "ID": "Ji0" ,
+     "name": "Jiraiya",
+     "items": [
+       "Oil Headband",
+       "Mount Myoboku's Scroll",
+       "Fukasaku & Shima",
+       "Lion White Hair",
+       "Geta"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "jiraiya.png"
+   },
+   {
+     "ID": "TS0" ,
+     "name": "Tsunade Senju",
+     "items": [
+       "First Hokage's Necklace",
+       "Tsunade Ninja Suit",
+       "Leather Gloves",
+       "Short Sandals",
+       "Slug Scroll"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "tsunade.png"
+   },
+   {
+     "ID": "NP0" ,
+     "name": "Naraka Path",
+     "items": [
+       "none"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "naraka.png"
+   },
+   {
+     "ID": "Ch0" ,
+     "name": "Chojuro",
+     "items": [
+       "Strategy Holster",
+       "Hiramekarei",
+       "Disc Earphones",
+       "Retro Square Frame"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "chojuro.png"
+   },
+   {
+     "ID": "Da0" ,
+     "name": "Darui",
+     "items": [
+       "Amber Purifying Pot",
+       "Sand Ninja's Headband",
+       "Seven Star Sword(Darui)",
+       "Crimson Gourd",
+       "Leather Armor"
+       ],
+     "reinforcements": [
+       "Kinkaku and Ginkaku",
+       "Mabui"
+       ],
+     "img": "darui.png"
+   },
+   {
+     "ID": "GH0" ,
+     "name": "Gengetsu Hozuki",
+     "items": [
+       "Mizukage Lining",
+       "Jokey Boy",
+       "Mizukage Mark",
+       "Mizukage Ninja Suit"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "gengetsu.png"
+   },
+   {
+     "ID": "Mu0" ,
+     "name": "Mu",
+     "items": [
+       "none"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "mu.png"
+   },
+   {
+     "ID": "HH0" ,
+     "name": "Hinata Hyuga",
+     "items": [
+       "Sandals",
+       "Konoha Headband(Hinata Hyuga)",
+       "Hand-knitted Scarf",
+       "Hyuga Byakugan",
+       "Hinata's Ninja Suit"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "hinata.png"
+   },
+   {
+     "ID": "BU0" ,
+     "name": "Boruto Uzumaki",
+     "items": [
+       "Scientific Ninja Tool",
+       "Konoha Headband(New Generation)",
+       "Boruto's Vest"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "boruto.png"
+   },
+   {
+     "ID": "SU0" ,
+     "name": "Sarada Uchiha",
+     "items": [
+       "Sharingan with Single Tomoe",
+       "Konoha Headband(New Generation)",
+       "Cloth Sleeves"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "sarada.png"
+   },
+   {
+     "ID": "OU0" ,
+     "name": "Obito Uchiha",
+     "items": [
+       "Circular Magatama Fan",
+       "Mangekyō Sharingan",
+       "Sword of Nunoboko",
+       "Kakuzu's Ring",
+       "Three Tomoe Mask"
+       ],
+     "reinforcements": [
+       "Rin Hoara",
+       "Yugito Nii",
+       "Roshi",
+       "Fuu"
+       ],
+     "img": "obito.png"
+   },
+   {
+     "ID": "TS0" ,
+     "name": "Tobirama Senju",
+     "items": [
+       "Kage's Helmet",
+       "Second Hokage's Vest",
+       "Flying Thunder God Kunai",
+       "Hard Whirlpool Water Blade",
+       "The Second Ninja Suit"
+       ],
+     "reinforcements": [
+       "Kawarama Senju"
+       ],
+     "img": "tobirama.png"
+   },
+   {
+     "ID": "HS0" ,
+     "name": "Hashirama Senju",
+     "items": [
+       "First Hokage Forehead Protector",
+       "First Hokage Necklace",
+       "First Hokage Scroll",
+       "First Hokage Ninja Suit",
+       "First Hokage Lightweight Pants"
+       ],
+     "reinforcements": [
+       "Kawarama Senju"
+       ],
+     "img": "hashirama.png"
+   },
+   {
+     "ID": "Ka0" ,
+     "name": "Kakuzu",
+     "items": [
+       "Kakuzu's Ring",
+       "Water Formation Wall",
+       "Pressure Damage",
+       "Intelligent Hard Work",
+       "First Hokage Lightweight Pants"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "kakuzu.png"
+   },
+   {
+     "ID": "Hi0" ,
+     "name": "Hidan",
+     "items": [
+       "Hidan's Ring",
+       "Black Spear",
+       "Bloody Triple Blades"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "hidan.png"
+   },
+   {
+     "ID": "HS1" ,
+     "name": "Hiruzen Sarutobi",
+     "items": [
+       "Third Hokage's Ninja Suit",
+       "The Third's pants",
+       "The Third's pipe",
+       "The Third's Helmet",
+       "Diamond Cudgel"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "hiruzen.png"
+   },
+   {
+     "ID": "Da0" ,
+     "name": "Danzo",
+     "items": [
+       "Eleven Sharingan",
+       "Danzo's Bandage",
+       "Danzo's Walking Stick ",
+       "Training Cloak",
+       "Mangekyō Sharingan"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "danzo.png"
+   },
+   {
+     "ID": "Ko0" ,
+     "name": "Konan",
+     "items": [
+       "Hope",
+       "Black Labret",
+       "Paper Rose",
+       "The Flower of Hope"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "konan.png"
+   },
+   {
+     "ID": "DP0" ,
+     "name": "Deva Path",
+     "items": [
+       "Pain's Ring",
+       "Yahiko's Body",
+       "Nagato's Black Rod",
+       "Pain's Sharingan"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "deva.png"
+   },
+   {
+     "ID": "NU1" ,
+     "name": "Nagato Uzumaki",
+     "items": [
+       "Nagato's Black Rod",
+       "Chakra Receiver Manifestation",
+       "Pain's Sharingan",
+       "Akatsuki's Cloak",
+       "Black Rod"
+       ],
+     "reinforcements": [
+       "none"
+       ],
+     "img": "nagato.png"
+   }
+ ]
+
+

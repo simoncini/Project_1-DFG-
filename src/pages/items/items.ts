@@ -20,8 +20,6 @@ export class Items {
 
   constructor(public navCtrl: NavController, public navParams: NavParams , private alertCtrl: AlertController, public appData: AppData, public storage:Storage ) {
 
-    //this.itemsList = new Array();
-
     /*
     *    FIX ME: ANDREBBE ORDINATO UNA SOLA VOLTA , PRIMA DI ACCEDERLO E NON OGNI VOLTA CHE SI TORNA SULLA PAGINA
     */
@@ -37,9 +35,6 @@ export class Items {
 
         return 0;
       });
-
-
-    this.itemsList = this.appData.getItems();
 
     this.itemsListInitial = this.itemsList;
 

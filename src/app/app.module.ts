@@ -15,6 +15,7 @@ import { CharPage } from '../pages/char-page/char-page';
 import { Items } from '../pages/items/items';
 import { ItemPage } from '../pages/item-page/item-page';
 import { InsertPage } from '../pages/insert-page/insert-page';
+import { Reinforcements } from '../pages/reinforcements/reinforcements';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Items,
     ItemPage,
     InsertPage,
+    Reinforcements
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CharPage,
     Items,
     ItemPage,
-    InsertPage
+    InsertPage,
+    Reinforcements
   ],
   providers: [
     StatusBar,

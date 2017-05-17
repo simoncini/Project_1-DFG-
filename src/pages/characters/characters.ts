@@ -23,15 +23,17 @@ export class Characters {
 
   constructor(public navCtrl: NavController, public navParams: NavParams , public storage:Storage , public appData: AppData) {
 
-    /*this.charsList = [
-      new Character("Tony Stark" , new Array( "Mk_1",  "Mk_2" , "Mk_3" ) , new Array("Jarvis") ),
-      new Character("Bruce Banner" , null , null ),
-      new Character("Steve Rogers" , null , null ),
-      new Character("Thor" , null , null )
-    ];*/
-    this.charsList = this.appData.getChar();
+    this.charsList = this.appData.getChar().sort((n1,n2) => {
+      if (n1.name > n2.name) {
+        return 1;
+      }
 
-    //this.appData.getRemoteChars(this.charsList);
+      if (n1.name < n2.name) {
+          return -1;
+        }
+
+        return 0;
+      });
 
     for (let entry of this.charsList) {
       console.log("Nome: "+entry.name);

@@ -11,7 +11,7 @@ page-char-page {
     height: 4.5em;
   }
 
-  #sfondo{
+  .sfondo{
     background-color: #020244;
     color: #f4f4f4;
   }
@@ -19,6 +19,10 @@ page-char-page {
   button.sfondo{
     background-color: #020244;
     color: #f4f4f4;
+  }
+
+  button.sfondo.item.item-block.item-ios {
+    height: 1.5em;
   }
 
 }
